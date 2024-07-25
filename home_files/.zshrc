@@ -8,5 +8,4 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 source ~/powerlevel10k/powerlevel10k.zsh-theme
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zshset +m; source <(bash -lic 'declare -px'); set -m
-set +m; source <(bash -lic 'declare -px'); set -m
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
