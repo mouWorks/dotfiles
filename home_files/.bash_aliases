@@ -1,6 +1,3 @@
-echo Hello Gitpod
-echo Here is my .bash_aliases dotfile
-
 alias gitsha='git rev-parse HEAD'
 alias nah="git reset --hard && git clean -df"
 alias gs="git status"
